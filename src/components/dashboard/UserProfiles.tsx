@@ -1,4 +1,3 @@
-import React from 'react'
 
 function UserProfiles() {
   return (
@@ -12,10 +11,10 @@ function UserProfiles() {
                 <input type="checkbox" className="checkbox" />
               </label>
             </th>
-            <th>Name</th>
-            <th>Job</th>
-            <th>Favorite Color</th>
-            <th>Options</th>
+            <th className="text-green-300">Name</th>
+            <th className="text-green-300">Job</th>
+            <th className="text-green-300">Favorite Color</th>
+            <th className="text-green-300">Options</th>
           </tr>
         </thead>
         <tbody>
@@ -36,7 +35,7 @@ function UserProfiles() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-bold">Hart Hagerty</div>
+                  <div className="font-bold text-green-300">Hart Hagerty</div>
                   <div className="text-sm opacity-50">United States</div>
                 </div>
               </div>
@@ -68,7 +67,7 @@ function UserProfiles() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-bold">Brice Swyre</div>
+                  <div className="font-bold text-green-300">Brice Swyre</div>
                   <div className="text-sm opacity-50">China</div>
                 </div>
               </div>
@@ -100,7 +99,7 @@ function UserProfiles() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-bold">Marjy Ferencz</div>
+                  <div className="font-bold text-green-300">Marjy Ferencz</div>
                   <div className="text-sm opacity-50">Russia</div>
                 </div>
               </div>
@@ -132,7 +131,7 @@ function UserProfiles() {
                   </div>
                 </div>
                 <div>
-                  <div className="font-bold">Yancy Tear</div>
+                  <div className="font-bold text-green-300">Yancy Tear</div>
                   <div className="text-sm opacity-50">Brazil</div>
                 </div>
               </div>

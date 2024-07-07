@@ -1,12 +1,11 @@
 
 import { Outlet } from 'react-router-dom'
-import Nav from './Nav'
 import SideNav from './SideNav'
 import Card from './Card'
 
 function Layout() {
     return (
-        <div className='flex max-h-fit min-h-full bg-neutral-100 text-neutral-200'>
+        <div className='flex max-h-fit min-h-full bg-base-100 text-green-400'>
             <div className='min-w-[10%] bg-green-200 hidden md:block'>
                 <SideNav />
             </div>
